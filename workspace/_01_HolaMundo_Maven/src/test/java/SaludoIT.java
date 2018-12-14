@@ -21,7 +21,7 @@ public class SaludoIT {
     @Test
     public void validarSaludarHolaMundo(){
         //Definir resultados esperados
-        String resultadoEsperado = "Hola !!";
+        String resultadoEsperado = "Hola Mundo!!";
 
         //Agitar el sut
         String resultadoObtenido = sut.saludaAlMundo();
